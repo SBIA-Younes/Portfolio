@@ -13,27 +13,27 @@ This project is a personal portfolio website showcasing my skills and projects a
 
 ## Project Structure
 
-├── Projet  
- │ ├── gérer.py  
- │ └── Projet  
- │ ├── asgi.py  
- │ ├── settings.py  
- │ ├── urls.py  
- │ └── wsgi.py  
- ├── Modèle  
- ├── Dist.  
- │ ├──css  
- │ │ └── input.css  
- │ ├── police  
- │ ├──image  
- │ └──js  
- │ └── preline.js  
- ├── Forfaits  
- │ ├── package.json  
- │ ├── package-lock.json  
- │ └── tailwind.config.js  
- └──Pages  
- └── base.html  
+├── Project  
+│ ├── manage.py  
+│ └── Project  
+│ ├── asgi.py  
+│ ├── settings.py  
+│ ├── urls.py  
+│ └── wsgi.py  
+├── Template  
+├── Dist  
+│ ├── css  
+│ │ └── input.css  
+│ ├── font  
+│ ├── image  
+│ └── js  
+│ └── preline.js  
+├── Packages  
+│ ├── package.json  
+│ ├── package-lock.json  
+│ └── tailwind.config.js  
+└── Pages  
+└── base.html 
 
 
 ## Technologies Used
