@@ -1,0 +1,20 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "This package will contain all the depandencies of my portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ../Dist/css/input.css -o ../Dist/css/style.css --watch",
+    "copie": "cp node_modules/preline/dist/preline.js ../Dist/js/preline.js"
+  },
+  "author": "SBIA Younes",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "preline": "^1.9.0"
+  }
+}
